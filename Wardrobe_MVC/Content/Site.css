@@ -2,6 +2,7 @@
     padding-top: 50px;
     padding-bottom: 20px;
     font-family: 'Sumana', serif;
+    background-color:#873b27;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -26,4 +27,13 @@ textarea {
 .footer{
     position:fixed;
     bottom: 0;
+}
+.mainH1{
+    text-align: center;
+    color:chartreuse;
+}
+.jumbotron {
+    background-image: url('denim-pile.jpg');
+    background-size: cover;
+    height: 350px;
 }
