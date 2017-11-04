@@ -7,6 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Wardrobe_MVC.Models
 {
     using System;
@@ -15,11 +18,17 @@ namespace Wardrobe_MVC.Models
     public partial class Bottom
     {
         public int BottomID { get; set; }
+        [Display(Name ="Bottom Name")]
         public string BottomName { get; set; }
+        [Display(Name = "Photo")]
         public string BottomPhoto { get; set; }
+        [Display(Name = "Type")]
         public string BottomType { get; set; }
+        [Display(Name = "Color")]
         public string BottomColor { get; set; }
+        [Display(Name = "Season")]
         public string BottomSeason { get; set; }
+        [Display(Name = "Occasion")]
         public string BottomOccasion { get; set; }
     }
 }
