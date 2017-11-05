@@ -2,7 +2,10 @@
     padding-top: 50px;
     padding-bottom: 20px;
     font-family: 'Sumana', serif;
-    background-color:#6b4423;
+    /*background-color: #6b4423;*/
+    background-image: url('barnWoodTwo.jpg');
+    background-position: inherit;
+    color:gold;
 }
 
 /* Set padding to keep content from hitting the edges */
