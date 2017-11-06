@@ -43,3 +43,9 @@ textarea {
 a{
     color:lawngreen;
 }
+.navbar-inverse .navbar-brand {
+  color: lawngreen;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: lawngreen;
+}

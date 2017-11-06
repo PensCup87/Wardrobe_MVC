@@ -4,62 +4,53 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Details</h2><br />
 
 <div>
-    <h4>Bottom</h4>
+    <h4><span class="label-success">Bottom</span></h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.BottomName)
+            @Html.DisplayNameFor(model => model.BottomName): <br />
+            @Html.DisplayFor(model => model.BottomName)<br />
         </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.BottomName)
-        </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.BottomPhoto)
+            @Html.DisplayNameFor(model => model.BottomType): <br />
+            @Html.DisplayFor(model => model.BottomType)<br />
         </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.BottomPhoto)
-        </dd>
+       <dt>
+            @Html.DisplayNameFor(model => model.BottomColor):<br />
+           @Html.DisplayFor(model => model.BottomColor)<br />
+        </dt>
 
         <dt>
-            @Html.DisplayNameFor(model => model.BottomType)
+            @Html.DisplayNameFor(model => model.BottomSeason): <br />
+            @Html.DisplayFor(model => model.BottomSeason)<br />
         </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.BottomType)
-        </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.BottomColor)
+            @Html.DisplayNameFor(model => model.BottomOccasion)<br />
+            @Html.DisplayFor(model => model.BottomOccasion)<br />
         </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.BottomColor)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.BottomSeason)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.BottomSeason)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.BottomOccasion)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.BottomOccasion)
-        </dd>
 
     </dl>
 </div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.BottomID }) |
     @Html.ActionLink("Back to List", "Index")

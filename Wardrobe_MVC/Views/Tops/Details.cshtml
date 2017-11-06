@@ -5,61 +5,53 @@
 }
 
 <h2>Details</h2>
+<br />
+
 
 <div>
-    <h4>Top</h4>
+    <h4><span class="label-success">Top</span></h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.TopName)
+            @Html.DisplayNameFor(model => model.TopName): <br />
+            @Html.DisplayFor(model => model.TopName)<br />
         </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TopName)
-        </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.TopPhoto)
+            @Html.DisplayNameFor(model => model.TopType): <br />
+            @Html.DisplayFor(model => model.TopType)<br />
         </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TopPhoto)
-        </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.TopType)
+            @Html.DisplayNameFor(model => model.TopColor): <br />
+            @Html.DisplayFor(model => model.TopColor)<br />
         </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TopType)
-        </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.TopColor)
+            @Html.DisplayNameFor(model => model.TopSeason): <br />
+            @Html.DisplayFor(model => model.TopSeason)<br />
         </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TopColor)
-        </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.TopSeason)
+            @Html.DisplayNameFor(model => model.TopOccasion): <br />
+            @Html.DisplayFor(model => model.TopOccasion)<br />
         </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TopSeason)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TopOccasion)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TopOccasion)
-        </dd>
-
     </dl>
 </div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.TopID }) |
     @Html.ActionLink("Back to List", "Index")
